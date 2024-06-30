@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/cosmic-utils.svg)](https://badge.fury.io/js/cosmic-utils)
 
-Cosmic Uils is a collection of utility functions for various validations. 
+Cosmic Utils is a collection of utility functions for various validations. 
 
 ## Installation
 
