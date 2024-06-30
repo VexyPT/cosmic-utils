@@ -1,4 +1,4 @@
-
+// src/index.ts
 export { default as isEmail } from './functions/isEmail';
 export { default as isUrl } from './functions/isUrl';
 export { default as isNumeric } from './functions/isNumeric';
@@ -12,3 +12,9 @@ export { default as isPasswordStrong } from './functions/isPasswordStrong';
 export { default as isDateValid } from './functions/isDateValid';
 export { default as isHexColor } from './functions/isHexColor';
 export { default as isIPv4 } from './functions/isIPV4';
+export { default as isAlphanumeric } from './functions/isAlphanumeric';
+export { default as isEmpty } from './functions/isEmpty';
+export { default as isBoolean } from './functions/isBoolean';
+export { default as isJson } from './functions/isJson';
+export { default as isPalindrome } from './functions/isPalindrome';
+export { default as isStrongUsername } from './functions/isStrongUsername';

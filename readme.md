@@ -15,7 +15,7 @@ npm install cosmic-utils
 ## How to use
 
 ```ts
-import {
+const {
     isEmail,
     isUrl,
     isNumeric,
@@ -28,8 +28,14 @@ import {
     isPasswordStrong,
     isDateValid,
     isHexColor,
-    isIPv4
-} from 'cosmic-utils';
+    isIPv4,
+    isAlphanumeric,
+    isEmpty,
+    isBoolean,
+    isJson,
+    isPalindrome,
+    isStrongUsername
+} = require('cosmic-utils');
 
 // isEmail Usage
 console.log(isEmail('test@example.com')); // true
@@ -82,5 +88,29 @@ console.log(isHexColor('AABBCC')); // false
 // isIPv4 Usage
 console.log(isIPv4('192.168.0.1')); // true
 console.log(isIPv4('999.999.999.999')); // false
+
+// isAlphanumeric Usage
+console.log(isAlphanumeric('abc123')); // true
+console.log(isAlphanumeric('abc!123')); // false
+
+// isEmpty Usage
+console.log(isEmpty('')); // true
+console.log(isEmpty('not empty')); // false
+
+// isBoolean Usage
+console.log(isBoolean(true)); // true
+console.log(isBoolean('true')); // false
+
+// isJson Usage
+console.log(isJson('{"key":"value"}')); // true
+console.log(isJson('invalid json')); // false
+
+// isPalindrome Usage
+console.log(isPalindrome('racecar')); // true
+console.log(isPalindrome('hello')); // false
+
+// isStrongUsername Usage
+console.log(isStrongUsername('username_123')); // true
+console.log(isStrongUsername('us')); // false
 
 ```
