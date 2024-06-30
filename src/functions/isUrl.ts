@@ -1,8 +1,6 @@
-export function isUrl(url: string): boolean {
-    try {
-        new URL(url);
-        return true;
-    } catch (_) {
-        return false;
-    }
-}
+const isUrl = (url: string): boolean => {
+    const urlRegex = /^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$/i;
+    return urlRegex.test(url);
+};
+
+export default isUrl;
