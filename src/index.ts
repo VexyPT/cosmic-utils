@@ -1,0 +1,13 @@
+export { isEmail } from './functions/isEmail';
+export { isUrl } from './functions/isUrl';
+export { isNumeric } from './functions/isNumeric';
+export { isPhoneNumber } from './functions/isPhoneNumber';
+export { isRegexColor } from './functions/isRegexColor';
+export { isRgbColor } from './functions/isRgbColor';
+export { isGreaterThan } from './functions/isGreaterThan';
+export { isLessThan } from './functions/isLessThan';
+export { isEqual } from './functions/isEqual';
+export { isPasswordStrong } from './functions/isPasswordStrong';
+export { isDateValid } from './functions/isDateValid';
+export { isHexColor } from './functions/isHexColor';
+export { isIPv4 } from './functions/isIPV4';
