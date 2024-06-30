@@ -1,8 +1,8 @@
-# meteor lib
+# cosmic utils
 
 [![npm version](https://badge.fury.io/js/cosmic-utils.svg)](https://badge.fury.io/js/cosmic-utils)
 
-Meteor Lib is a collection of utility functions for various validations. 
+Cosmic Uils is a collection of utility functions for various validations. 
 
 ## Installation
 
