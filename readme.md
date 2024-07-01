@@ -53,9 +53,9 @@ console.log(isNumeric('123a45')); // false
 console.log(isPhoneNumber('(123) 456-7890')); // true
 console.log(isPhoneNumber('invalid-phone-number')); // false
 
-// isRegexColor Usage
-console.log(isRegexColor('#AABBCC')); // true
-console.log(isRegexColor('AABBCC')); // false
+// isHegexColor Usage
+console.log(isHegexColor('#AABBCC')); // true
+console.log(isHegexColor('AABBCC')); // false
 
 // isRgbColor Usage
 console.log(isRgbColor('rgb(255, 255, 255)')); // true
