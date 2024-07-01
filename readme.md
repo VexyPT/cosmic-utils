@@ -4,6 +4,8 @@
 
 Cosmic Utils is a collection of utility functions for various validations. 
 
+## Suport Server: https://discord.gg/RWKmBhxMc4
+
 ## Installation
 
 You can install the package using npm:
